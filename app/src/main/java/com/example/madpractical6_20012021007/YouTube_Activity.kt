@@ -9,6 +9,7 @@ class YouTube_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_you_tube)
 
+
         val youtubeid=""
         val mywebview = findViewById<WebView>(R.id.webview)
         val setting = mywebview.settings
